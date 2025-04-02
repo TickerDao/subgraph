@@ -6,9 +6,9 @@ dataSources:
     name: L2StorageManager
     network: datachain-sepolia
     source:
-      address: "0x7b02d739D95758F09dDc7e44FA951cd45D97247A"
+      address: "0x549Fe7f60d441B7BbAf7B45500a4A2A2f71ae9c0"
       abi: L2StorageManager
-      startBlock: 5627255
+      startBlock: 22
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
@@ -45,9 +45,9 @@ dataSources:
     name: TokenStorage
     network: datachain-sepolia
     source:
-      address: "0xA0972Cc7E02908E974D43817a0Dfaaf2Fece62dB"
+      address: "0xf017D32e58C46FA7D42Cc26448FBed9271CC7750"
       abi: TokenStorage
-      startBlock: 5627255
+      startBlock: 22
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
@@ -71,9 +71,9 @@ dataSources:
     name: AddressStorage
     network: datachain-sepolia
     source:
-      address: "0x10b21FEf9FfFF80d10089417340D4e647cd4B5AA"
+      address: "0x9715b4bBc79f385633c166715C3B43DF32603348"
       abi: AddressStorage
-      startBlock: 5627245
+      startBlock: 22
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
@@ -97,7 +97,7 @@ dataSources:
     source:
       address: "0x3bCbffEf4A5fA2124B20D87bDA5A3D09912611c7"
       abi: ListStorage
-      startBlock: 5627255
+      startBlock: 22
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
